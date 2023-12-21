@@ -65,7 +65,7 @@ def open_another_window(maze):
     pygame.display.set_caption("Labyrinthe")
 
     character_pos = [1, 1]  # Initial position of the character
-    finish_pos = [len(maze[0]) - 2, len(maze) - 2]  # Position of the finish line
+    finish_pos = [len(maze[0]) - 1, len(maze) - 2]  # Position of the finish line
     draw_maze(another_window)
     draw_character(another_window, character_pos)
     draw_finish(another_window, finish_pos)
